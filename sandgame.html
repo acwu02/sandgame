@@ -1,0 +1,45 @@
+<head>
+    <meta charset="utf-8" />
+    <title>SAND GAME</title>
+    <style>
+      * { padding: 0; margin: 0; }
+    </style>
+</head>
+<body>
+
+<canvas id="game" width="480" height="320"
+  style="background: black; display: block; margin: 0 auto; height: 300; width: 500"></canvas>
+<canvas id="menu" width="480" height="20"
+  style="background: #5A6988FF; display: block; margin: 0 auto; height: 20; width: 500"></canvas>
+
+  <p id="demo"></p>
+
+  <button onclick="Engine.parseType(Elements.sand)">Sand</button>
+  <button onclick="Engine.parseType(Elements.stone)">Stone</button>
+  <button onclick="Engine.parseType(Elements.water)">Water</button>
+  <button onclick="Engine.parseType(Elements.lava)">Lava</button>
+  <button onclick="Engine.parseType(Elements.fountain)">Fountain</button>
+  <button onclick="Engine.parseType(Elements.seed)">Seed</button>
+  <button onclick="Engine.parseType(Elements.fire)">Fire</button>
+  <button onclick="Engine.parseType(Elements.dirt)">Dirt</button>
+  <button onclick="Engine.parseType(Elements.steam)">Steam</button>
+  <button onclick="Engine.parseType(Elements.wood)">Wood</button>
+  <button onclick="Engine.parseType(Elements.ash)">Ash</button>
+  <button onclick="Engine.parseType(Elements.lye)">Lye</button>
+  <button onclick="Engine.parseType(Elements.charcoal)">Charcoal</button>
+  <button onclick="Engine.parseType(Elements.oil)">Oil</button>
+  <button onclick="Engine.parseType(Elements.soap)">Soap</button>
+  <button onclick="Engine.parseType(Elements.glass)">Glass</button>
+  <button onclick="Engine.parseType(Elements.obsidian)">Obsidian</button>
+  <button onclick="Engine.parseType(Elements.sulfur)">Sulfur</button>
+  <button onclick="Engine.parseType(Elements.gunpowder)">Gunpowder</button>
+  <button onclick="Engine.parseType(Elements.meth)">Blue Sky</button>
+  <button onclick="Engine.parseType(Elements.erase)">Erase</button>
+  <button onclick="Data.save()">Save</button>
+  <button onclick="Data.load()">Load</button>
+
+  <script src="sandgame.js"></script>
+  <p id="demo"></p>
+
+</body>
+</html>
