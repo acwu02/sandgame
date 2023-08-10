@@ -1,0 +1,30 @@
+:root {
+    background: white;
+    font-family: Andale Mono,AndaleMono,monospace;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: Andale Mono,AndaleMono,monospace;
+    background-color: white;
+    border-color: black;
+    width: 15em;
+    margin: 0;
+    justify-content: center;
+}
+
+canvas {
+    background: black;
+    display: block;
+}
+
+#loginForm {
+    text-align: center;
+}
